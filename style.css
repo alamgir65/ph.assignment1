@@ -187,11 +187,15 @@
 
 /* Functional Styles  */
 .function{
-    margin: 70px 250px;
+    /* margin: 70px 250px; */
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
     text-align: center;
     width: 1320px;
     height: 986px;
     align-items: center;
+    margin-bottom: 0px;
 }
 
 .function-first .subtitle{
@@ -210,12 +214,62 @@
 .functional-description{
     font-size: 20px;
     opacity: 90%;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.first-half{
+    display: flex;
+    gap: 90px;
+    margin-bottom: 0px;
+}
+.with-girl{
+    margin-right: 0px;
+}
+.background{
+    margin-top: 0px;
+}
+.mistry-box{
+    /* position: absolute; */
+    position: relative;
+    top: 290px;
+}
+.discount{
+    position: relative;
+    top: 390px;
+    right: 220px;
 }
 .function-second{
-    background-image: url("resources/Rectangle\ 2.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
+
+.portfolio{
+    margin-top: 350px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.portfolio-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: red;
+}
+.portfolio-title{
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.portfolio-description{
+    font-size: 20px;
+    opacity: 90%;
+    margin-bottom: 20px;
+}
+.portfolio .contents{
     display: flex;
+    gap: 30px;
+}
+.content-item{
+    margin-top: 20px;
 }
